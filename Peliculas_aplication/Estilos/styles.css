@@ -1,0 +1,101 @@
+﻿/* Estilos personalizados */
+<link href="styles.css" rel="stylesheet" />
+
+/* Estilos para el contenido principal */
+.container {
+    margin-top: 20px; /* Espacio superior */
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    border-bottom: 2px solid #fff; /* Línea inferior */
+}
+
+.navbar-brand {
+    font-size: 1.5rem; /* Tamaño de la fuente del logo */
+}
+
+.navbar-nav .nav-link {
+    padding: 0.5rem 1rem; /* Espacio interior */
+    font-size: 1.2rem; /* Tamaño de la fuente de los enlaces */
+}
+
+/* Estilos para el botón de búsqueda */
+.btn-buscar {
+    background-color: #ffc107; /* Color de fondo */
+    border-color: #ffc107; /* Color del borde */
+    color: #212529; /* Color del texto */
+}
+
+    .btn-buscar:hover {
+        background-color: #e0a800; /* Color de fondo al pasar el mouse */
+        border-color: #e0a800; /* Color del borde al pasar el mouse */
+        color: #212529; /* Color del texto al pasar el mouse */
+    }
+
+/* Estilos para los mensajes de notificación */
+.toast-container {
+    position: absolute; /* Posición absoluta */
+    top: 0; /* Distancia desde arriba */
+    end: 0; /* Distancia desde la derecha */
+    padding: 1rem; /* Espaciado */
+    z-index: 1000; /* Z-index para superponer sobre otros elementos */
+}
+
+.toast {
+    position: relative; /* Posición relativa */
+    background-color: #28a745; /* Color de fondo */
+    color: #fff; /* Color del texto */
+}
+
+.toast-body {
+    font-size: 1.2rem; /* Tamaño de la fuente del cuerpo del mensaje */
+}
+
+
+/* Estilo para el texto "Búsqueda por ID" */
+#busqueda {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Color del texto */
+}
+
+/* Estilo para las etiquetas <label> */
+
+/* Estilos para los Label */
+/* Estilos para los Label */
+.form-label {
+    display: inline-block;
+    width: 45%; /* Ancho de cada Label */
+    margin-right: 5%; /* Margen derecho entre los Label */
+    margin-bottom: 10px; /* Espacio entre las filas */
+    vertical-align: top; /* Alinea los Label en la parte superior */
+}
+
+
+/* Estilo para los campos de entrada <input> */
+.form-control {
+    width: 100%; /* Ancho completo del campo de entrada */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ccc; /* Borde gris */
+    box-sizing: border-box; /* Incluir el borde en el tamaño total */
+}
+
+/* Estilo para el botón de búsqueda */
+.btn-outline-warning {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFA500; /* Color del texto */
+    border-color: #FFA500; /* Color del borde */
+    background-color: transparent; /* Fondo transparente */
+    padding: 10px 20px; /* Espaciado interno (arriba y abajo, izquierda y derecha) */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+    /* Cambiar el color del botón cuando se coloca el cursor sobre él */
+    .btn-outline-warning:hover {
+        color: #fff; /* Color del texto al pasar el cursor */
+        background-color: #FFA500; /* Fondo naranja */
+        border-color: #FFA500; /* Borde naranja */
+    }
